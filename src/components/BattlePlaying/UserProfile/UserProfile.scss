@@ -1,0 +1,43 @@
+.character-battle-img {
+    background-size: 100% !important;
+}
+
+.warrior-battle-container {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.rival-battle-container {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.rival-ready {
+    color: rgb(53, 183, 107);
+    font-weight: 700;
+}
+
+.character-battle-img {
+    padding: 10px;
+
+    .char-name {
+        font-family: "SVN-Internation", serif !important;
+        text-transform: uppercase;
+        font-size: 30px !important;
+        color: rgb(244, 239, 225);
+        width: 500px;
+    }
+
+    .char-alias {
+        padding: 0px;
+        font-size: 20px !important;
+        color: rgb(206, 174, 108) !important;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+
+    }
+}

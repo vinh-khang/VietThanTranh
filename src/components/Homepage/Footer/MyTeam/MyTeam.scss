@@ -1,0 +1,87 @@
+.my-team-container {
+    .css-6b3s0t-MuiTypography-root {
+        font-family: "SVN-Internation", serif !important;
+        font-size: 32px;
+    }
+
+    .css-ahj2mt-MuiTypography-root {
+        font-family: "SVN-Internation", serif !important;
+    }
+
+    .css-19kzrtu {
+        width: 1000px;
+    }
+
+
+    .my-team-content {
+        height: 700px !important;
+        background-size: 1200px !important;
+
+
+    }
+
+    .my-team-bar {
+        background-color: rgb(35, 35, 35) !important;
+    }
+
+    .css-cyxlny-MuiPaper-root-MuiDialog-paper {
+        background-color: transparent !important;
+    }
+
+}
+
+.char-info-container {
+    display: flex;
+    flex-direction: row;
+
+    .char-info-left {
+        width: 50%;
+
+        .char-name {
+            text-transform: uppercase;
+            font-size: 48px !important;
+            color: rgb(244, 239, 225);
+            height: 60px;
+            width: 500px;
+        }
+
+        .char-alias {
+            padding: 0px;
+            font-size: 24px !important;
+            margin: 12px 0px;
+            color: rgb(206, 174, 108) !important;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            font-weight: 600;
+
+        }
+
+        .char-summary {
+            font-size: 18px;
+            text-align: justify;
+            font-family: sans-serif !important;
+        }
+
+        .char-team {
+            width: 70px;
+            height: 70px;
+            border: 1px solid rgb(199, 199, 199);
+            margin-top: 10px;
+        }
+    }
+
+    .char-info-right {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+
+        justify-content: space-between;
+
+        .char-card {
+            height: 400px;
+            margin-left: 70px;
+        }
+    }
+
+}

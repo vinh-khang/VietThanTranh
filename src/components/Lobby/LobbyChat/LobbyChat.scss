@@ -1,0 +1,16 @@
+.lobby-chat {
+    padding: 20px;
+    color: white !important;
+
+
+    .lobby-box-chat {
+        height: 300px;
+        background: rgba($color: #ffffff, $alpha: 0.2);
+        border-radius: 10px;
+    }
+
+    .chat-input {
+        background-color: transparent !important;
+        border-bottom: 1px solid white !important;
+    }
+}

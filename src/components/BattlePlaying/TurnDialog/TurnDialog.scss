@@ -1,0 +1,44 @@
+.turn-dialog {
+    background-color: black;
+    color: white !important;
+
+    .turn-dialog-title {
+        font-size: 40px;
+        width: 500px;
+        text-align: center;
+    }
+}
+
+.turn-dialog-bg {
+    background: url('../../../assets/backgrounds/longcung-2.jpg') center center no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    position: relative;
+    margin: 0px auto;
+    color: white;
+}
+
+#video_background {
+
+    position: absolute;
+
+    bottom: 0px;
+
+    right: 0px;
+
+    min-width: 100%;
+
+    min-height: 100%;
+
+    width: auto;
+
+    height: auto;
+
+    z-index: -1000;
+
+    overflow: hidden;
+
+}

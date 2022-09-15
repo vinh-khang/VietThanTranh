@@ -1,0 +1,49 @@
+.searching-drawer {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 0%), url("../../../../assets//backgrounds/drawer_bg.jpg") center center no-repeat;
+    background-size: cover;
+    color: white !important;
+    position: relative;
+    padding: 5px 15px;
+    border-left: 1px solid rgb(154, 154, 154);
+    height: 100vh;
+
+    .MuiChip-deleteIcon {
+        color: white !important;
+    }
+
+    .search-drawer-img {
+        width: 100%;
+    }
+
+    .title-stack-drawer {
+        padding: 5px;
+    }
+
+    .match-timer-drawer {
+        width: 200px;
+    }
+
+    .cancel-btn:hover {
+        filter: brightness(150%);
+        cursor: pointer;
+    }
+
+    .css-eg21dp-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon {
+        color: white !important
+    }
+
+}
+
+// .css-22jxwj-MuiPaper-root-MuiDialog-paper {
+//     background-color: rgba(0, 0, 0, 0.5) !important;
+//     border: 3px solid #cbb178;
+//     height: 400px !important;
+//     width: 400px !important;
+//     background: url("../../../../assets/backgrounds/longvsngu.png") center center no-repeat;
+//     background-size: cover;
+//     padding: 50px;
+//     color: white !important;
+//     border-radius: 50% !important;
+//     font-family: none !important;
+
+// }

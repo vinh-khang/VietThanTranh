@@ -1,0 +1,113 @@
+$modal-backdrop-opacity: 1.0;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.App {
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url('./assets/backgrounds/st-tt-home.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.inter-font {
+  font-family: "SVN-Internation", serif !important;
+}
+
+.sans-font {
+  font-family: sans-serif !important;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.blue {
+  color: rgb(89, 232, 196)
+}
+
+.white {
+  color: rgb(255, 255, 255)
+}
+
+.frame-title {
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.no-drag {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .homepage-container {
+//     background-color: black;
+//     padding: 10px 10%;
+//   }
+// }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .homepage-container {
+//     background-color: white;
+//     padding: 10px 10%;
+//   }
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .homepage-container {
+//     background-color: white;
+//     padding: 10px 10%;
+//   }
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .homepage-container {
+//     background-color: white;
+//     padding: 10px 10%;
+//   }
+// }

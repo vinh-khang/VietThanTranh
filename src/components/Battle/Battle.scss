@@ -1,0 +1,65 @@
+.battle-content {
+    background: url('../../assets/backgrounds/thanthu-bg.jpg') center center no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    position: relative;
+    margin: 0px auto;
+    color: white;
+
+    .left-content {
+        width: 40%;
+        background-color: rgba($color: #000000, $alpha: 0.5) !important;
+        padding-top: 10px;
+        height: 100vh;
+
+        .title {
+            background: rgba($color: #000000, $alpha: 0.5);
+            width: 100%;
+            font-size: 24px;
+            padding: 8px 20px;
+            border-left: 10px solid white;
+            text-align: center;
+
+            i {
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .middle-content {
+        width: 60%;
+        height: 100vh;
+
+        .my-board {
+            width: 650px;
+            height: 650px;
+        }
+
+        .ready-lobby {
+            background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 0%) center center no-repeat;
+            position: absolute;
+            bottom: 0;
+            width: 50%;
+            padding: 30px;
+
+            .ready-lobby-btn {
+                cursor: pointer;
+            }
+
+            .ready-lobby-btn:hover {
+                filter: brightness(110%);
+            }
+
+            .ready-status {
+                cursor: default;
+                filter: brightness(60%);
+            }
+        }
+
+    }
+
+
+}

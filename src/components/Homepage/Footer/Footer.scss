@@ -1,0 +1,36 @@
+.footer {
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid rgb(139, 114, 31);
+
+    .footer-content {
+        display: flex;
+
+        .left-content {
+            width: 75%;
+
+            .footer-item {
+                height: 80px;
+                padding: 5px;
+                cursor: pointer;
+            }
+
+            .footer-item:hover {
+                filter: brightness(150%);
+            }
+        }
+
+        .right-content {
+            width: 25%;
+        }
+    }
+
+
+
+}

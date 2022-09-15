@@ -1,0 +1,67 @@
+.playing-battle-board-container {
+    background: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 0%);
+    height: 100vh;
+
+    .left-board-content {
+        padding: 5px;
+        border-radius: 10px;
+        height: 100vh !important;
+        width: 67%;
+
+        .board-title {
+            text-align: center;
+            margin: 10px auto !important;
+            text-transform: uppercase;
+            background: rgba(0, 0, 0, 0.7);
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            padding: 10px;
+            margin-right: 130px;
+            font-size: 16px;
+            border-radius: 2px;
+
+        }
+
+        .board-container {
+            border: 4px double rgba(0, 0, 0, 0.8);
+            width: 593px !important;
+            height: 593px !important;
+            border-radius: 5px;
+            margin: 10px auto;
+        }
+
+        .board-column-name-item {
+            width: 45px !important;
+            text-align: center !important;
+            margin: auto !important;
+
+        }
+
+        .board-column-name {
+            width: 593px !important;
+            margin: auto;
+        }
+
+        .board-row-name {
+            height: 50px !important;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+
+    .right-board-content {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .battle-playing-rival-container {
+            width: 300px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+    }
+
+
+}

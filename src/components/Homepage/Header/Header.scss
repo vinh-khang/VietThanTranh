@@ -1,0 +1,76 @@
+.header {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 15%;
+    width: 100%;
+    border-bottom: 3px solid rgb(114, 93, 45);
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+
+
+
+    .top-header {
+        display: block;
+
+        .logo {
+            height: 90px;
+            filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+        }
+
+        .setting {
+            background: rgba(0, 0, 0, 1) !important;
+            right: 0 !important;
+            left: auto !important;
+
+            .setting-item {
+                color: rgb(211, 211, 211) !important;
+                cursor: pointer;
+            }
+
+            .setting-item:hover {
+                color: white !important;
+                background: none;
+            }
+
+        }
+
+        .navbar-nav {
+            width: 30%;
+            justify-content: space-between;
+            font-weight: 900;
+        }
+
+
+
+        .player-profile {
+            display: flex;
+            position: relative;
+            justify-content: flex-start;
+            align-items: center;
+
+            .player-name {
+                margin-left: 24px;
+                font-size: 20px;
+            }
+
+            .avatar {
+                width: 50px;
+                height: 50px;
+                position: relative;
+
+            }
+
+            .avatar_frame {
+                position: absolute;
+                width: 80px;
+                left: -15px;
+            }
+        }
+    }
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    background: rgba(0, 0, 0, 0.8) !important;
+    color: white !important;
+
+}

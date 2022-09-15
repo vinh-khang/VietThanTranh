@@ -1,0 +1,55 @@
+.profile-card {
+    background: url('../../../assets/elements/bgngchoi.png') center center no-repeat;
+    background-size: 200px;
+    height: 300px;
+    color: white;
+    margin: auto;
+
+    .profile-body {
+        margin: 0px !important;
+        padding: 10px !important;
+        width: 100%;
+
+        .player-name {
+            font-size: 16px;
+            margin-top: 10px;
+            font-weight: 700;
+
+        }
+
+        .level {
+            color: rgb(156, 156, 156) !important;
+        }
+
+        .avatar-profile {
+            width: 25%;
+            align-self: center;
+            display: block;
+            margin: auto;
+        }
+
+
+
+    }
+
+    .profile-bg {
+        width: 100% !important;
+        height: 100%;
+    }
+
+
+    .flag {
+        width: 50% !important;
+        width: 100px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile-crown {
+        width: 50px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

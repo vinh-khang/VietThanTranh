@@ -1,0 +1,41 @@
+@import "../../../../../node_modules/bootstrap/scss/bootstrap";
+
+.friend-home-container {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    -webkit-background-clip: padding-box !important;
+    /* for Safari */
+    background-clip: padding-box !important;
+    margin: 0px 3px;
+    border: 3px;
+    padding: 5px 15px;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    background-color: transparent !important;
+
+    .friend-avatar {
+        padding: 0px;
+
+    }
+
+}
+
+.friend-home-container:hover {
+    border: 1px solid white !important;
+    -webkit-background-clip: padding-box !important;
+    /* for Safari */
+    background-clip: padding-box !important;
+    cursor: pointer;
+}
+
+.friend-item {
+    border-bottom: 1px solid rgb(81, 81, 81);
+    width: 250px !important;
+
+    .friend-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 130px
+    }
+}

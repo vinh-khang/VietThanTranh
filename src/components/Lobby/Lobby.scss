@@ -1,0 +1,154 @@
+.waiting-battle-content {
+    background: url('../../assets/backgrounds/sontinhthuytinh-2.jpg') center center no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    position: relative;
+    margin: 0px auto;
+    color: white;
+
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .left-content {
+            width: 25%;
+            background-color: rgba($color: #000000, $alpha: 0.5) !important;
+            padding-top: 10px;
+            height: 100vh;
+
+            .hero-selection {}
+
+            .title {
+                background: rgba($color: #000000, $alpha: 0.5);
+                width: 100%;
+                font-size: 24px;
+                padding: 8px 20px;
+                border-left: 10px solid white;
+                text-align: center;
+
+                i {
+                    margin-right: 15px;
+                }
+            }
+        }
+
+        .middle-content {
+            width: 50%;
+            padding-top: 20px;
+
+            .mid-title {
+                background: url('../../assets/elements/taotrandau.png') center center no-repeat;
+                background-size: 100%;
+                width: 60%;
+                height: 90px;
+                margin: auto;
+            }
+
+            .lobby-count-down {
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #000000;
+                height: 50px;
+            }
+
+            .ready-lobby {
+                background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 0%) center center no-repeat;
+                position: absolute;
+                bottom: 0;
+                width: 50%;
+                padding: 30px;
+                border: 1px solid white;
+
+                .ready-lobby-btn {
+                    cursor: pointer;
+                }
+
+                .ready-lobby-btn:hover {
+                    filter: brightness(110%);
+                }
+
+                .ready-status {
+                    cursor: default;
+                    filter: brightness(60%) !important;
+                }
+
+                .out-lobby:hover {
+                    background: rgb(0, 0, 0) !important;
+                    filter: brightness(120%) !important;
+
+                }
+            }
+
+        }
+
+        .right-content {
+            width: 25%;
+            background-color: rgba($color: #000000, $alpha: 0.5) !important;
+            padding-top: 10px;
+            height: 100vh;
+
+            .room-waiting {
+                background: rgba($color: #000000, $alpha: 0.5);
+                width: 100%;
+                font-size: 24px;
+                padding: 8px 20px;
+                border-right: 10px solid white;
+                text-align: center;
+
+                i {
+                    margin-right: 15px;
+                }
+
+                .join-room {
+                    width: 50% !important;
+                    background: none;
+
+                    .input-room {
+                        background: none !important;
+                        color: white;
+                        height: 30px;
+                        border-radius: 15px 0px 0px 15px;
+                        padding: 0px 20px;
+                        -webkit-appearance: none;
+                        opacity: 0.8;
+
+                    }
+
+                    input::-webkit-outer-spin-button,
+                    input::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+
+                    input:focus {
+                        box-shadow: none;
+                        border: 1px solid white;
+                        opacity: 1;
+                    }
+
+                    ::placeholder {
+                        color: rgb(255, 255, 255);
+                    }
+
+                    .join-room-btn {
+                        height: 30px;
+                        border-radius: 15px 15px 15px 15px;
+                        font-size: 8px;
+                        padding: 0px 10px;
+                        opacity: 0.8;
+
+                    }
+
+                    .join-room-btn:focus {
+                        box-shadow: none;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
